@@ -31,7 +31,7 @@ img{
     width: 100%;
 }
 
-@media(max-width: 1000px){
+@media screen and (max-width: 1000px){
 
     html{
         font-size: 0.5rem;
@@ -50,6 +50,7 @@ img{
 
     .landing-text h1{
         font-size: 20px;
+        text-align: center;
     }
     .landing-text h6{
         font-size: 5px;
