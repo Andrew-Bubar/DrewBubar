@@ -6,3 +6,12 @@ $(document).ready(function (){
         $('.top-nav').toggleClass('open');
     });
 });
+
+$(document).ready(function (){
+
+    $('.nav-link').on('click', function(){
+        $('.top-nav').toggleClass('open');
+
+        $('.menu-toggler').toggleClass('open');
+    });
+});
